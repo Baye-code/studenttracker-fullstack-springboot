@@ -233,7 +233,7 @@ function App() {
             <Footer style={{textAlign: 'center'}}>
                 <Image
                     width={75}
-                    src="https://raw.githubusercontent.com/Baye-code/studenttracker-fullstack-springboot/test-build-workflow/.github/images/Baye-Code.png"
+                    src="https://dakar-tech-university-webcontent.s3.us-east-2.amazonaws.com/Baye-Code.png"
                 />
                 <Divider>
                     <a
