@@ -13,7 +13,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm
+    Radio, Popconfirm, Image, Divider
 } from 'antd';
 
 import {
@@ -229,7 +229,21 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Baye-Code</Footer>
+            {/*<Footer style={{textAlign: 'center'}}>By Baye-Code</Footer>*/}
+            <Footer style={{textAlign: 'center'}}>
+                <Image
+                    width={75}
+                    src="https://raw.githubusercontent.com/Baye-code/studenttracker-fullstack-springboot/test-build-workflow/.github/images/Baye-Code.png"
+                />
+                <Divider>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://amigoscode.com/p/full-stack-spring-boot-react">
+                        Click here to access Fullstack Spring Boot & React for professionals by Amigoscode
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
