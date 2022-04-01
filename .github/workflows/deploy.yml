@@ -20,7 +20,7 @@ env:
   AWS_REGION: us-east-2
   EB_ENVIRONMENT_NAME: Studenttrackerapp-env-101
   EB_APPLICATION_NAME: studenttracker-app
-  EB_DEPLOYMENT_PACKAGE: elasticbeanstalk/docker-compose.yml
+  EB_DEPLOYMENT_PACKAGE: elastikbeanstalk/docker-compose.yml
 
 jobs:
   deploy:
