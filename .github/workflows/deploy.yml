@@ -15,7 +15,7 @@ env:
   # Java
   JAVA_VERSION: 1.15
   # DockerHub
-  DOCKER_HUB_USERNAME: 05021997
+  DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
   # AWS & Elastic Bean Stalk
   AWS_REGION: us-east-2
   EB_ENVIRONMENT_NAME: Studenttrackerapp-env-101
